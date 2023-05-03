@@ -1,0 +1,125 @@
+.header * {
+  overflow-y: hidden;
+}
+.header .header__header__menu__button button {
+  color: white;
+  background: #000;
+  font-size: 13px;
+  padding: 0 0 0 23px;
+  background: #415360;
+  border-radius: 5px;
+}
+.header .header__header__menu__button button p {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  background: url("../img/myphone.png") left no-repeat;
+  padding: 9px 23px 9px 29px;
+}
+.header__header {
+  background: #F9F9F9;
+  padding: 20px 0;
+}
+.header__header__container {
+  max-width: 1500px;
+  margin: 0px auto;
+  padding: 0 15px;
+}
+.header__header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  z-index: 1;
+}
+.header__header__menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 14px;
+  font-size: 12px;
+  color: #000;
+}
+.header__header__menu__link {
+  padding: 0 14px;
+}
+.header__header__menu__link::after {
+  content: "^";
+  position: relative;
+  top: 5px;
+  padding: 0 2px;
+  -webkit-transform: rotate(0.5turn);
+          transform: rotate(0.5turn);
+}
+.header__body {
+  background: #F9F9F9;
+  padding: 0 0 20px 0;
+}
+.header__body__container {
+  max-width: 1500px;
+  margin: 0px auto;
+  padding: 0 15px;
+}
+.header__body__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.header__body__img {
+  position: relative;
+  left: 0px;
+  top: 0;
+}
+@media (max-width: 1400px) {
+  .header__body__img {
+    right: 0px;
+  }
+}
+.header__body__block__title {
+  padding: 100px 0 0 0;
+}
+.header__body__block__title__big {
+  font-size: 42px;
+  line-height: 57px;
+  font-weight: 800;
+  -webkit-transition: 1s all;
+  transition: 1s all;
+  padding: 0 0 10px 0;
+}
+.header__body__block__title__small {
+  font-weight: 400;
+  font-size: 18px;
+  color: #666;
+  line-height: 24.57px;
+}
+.header__footer__grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 4fr 0.1fr 2fr;
+  grid-template-columns: 4fr 0.1fr 2fr;
+}
+.header__footer__grid__block img {
+  width: 100%;
+  height: 100%;
+}
+.header__footer .header__footer__group {
+  position: relative;
+  bottom: 74px;
+  left: 1200px;
+}
+@media (max-width: 1300px) {
+  .header__footer .header__footer__group {
+    position: relative;
+    bottom: 74px;
+    left: 770px;
+  }
+}
